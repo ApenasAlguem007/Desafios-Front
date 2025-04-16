@@ -1,0 +1,46 @@
+body {
+    background-color: #E6E6E6;
+    color: #505050;
+}
+
+
+input {
+    background-color: transparent;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+
+.login-container {
+    background-color: #505050;
+    color: whitesmoke;
+    width: 25vw;
+    height: 35vw;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 50px;
+
+    
+}
+
+
+.login-section {
+    color: #E6E6E6;;
+}
+
+
+#title-login {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#email-login div, label {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+
+#password-login {
+    
+}
