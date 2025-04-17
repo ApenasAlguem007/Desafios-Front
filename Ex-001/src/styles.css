@@ -4,43 +4,82 @@ body {
 }
 
 
-input {
-    background-color: transparent;
-    border-bottom: 1px solid #E6E6E6;
+input::placeholder {
+    color: #CDCDCD;
+    font-size: smaller;
+    text-align: left;
 }
 
 
 .login-container {
-    background-color: #505050;
-    color: whitesmoke;
+    background-color: rgba(80, 80, 80, 80%);
     width: 25vw;
-    height: 35vw;
+    height: 75vh;
     margin: auto;
-    margin-top: 15vh;
     border-radius: 50px;
-
     
 }
 
 
-.login-section {
-    color: #E6E6E6;;
+.login-section * {
+    display: block;
+    color: #E6E6E6;
+    margin: auto;
 }
 
 
 #title-login {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
+    margin-bottom: 100px;
 }
 
 
-#email-login div, label {
-    display: block;
-    text-decoration: none;
-    margin-bottom: 15px;
+#email-login input {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 75%;
+    border: transparent;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 50px;
+
 }
 
 
-#password-login {
-    
+#email-login label {
+    width: 75%;
+    text-align: left;
 }
+
+
+#password-login input {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 75%;
+    border: transparent;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 50px;
+}
+
+
+#password-login label {
+    width: 75%;
+    text-align: left;
+}
+
+
+#login-button input {
+    background-color: #885C8B;
+    color: #E6E6E6;
+    border: transparent;
+    border-radius: 25px;
+    width: 75%;
+    height: 25px;
+}
+
+
+#login-button input:hover {
+    background-color: #CDCDCD;
+    color: #1E1E1E;
+}
+

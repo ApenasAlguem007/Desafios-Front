@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login de Usuário </title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../src/styles.css">
 
 </head>
 <body>
-    
-    <form action="script.php" method="POST">
+
+
+    <form action="../src/login.php" method="POST">
 
         <div class="login-container">
 
@@ -23,19 +24,18 @@
 
                 <div id="email-login">
                     <label for="user-email"> E-Mail </label>
-                    <input type="email" name="user-email" placeholder="E-Mail" value="<?php echo htmlspecialchars($username ?? ''); ?>">
-                    
+                    <input type="email" name="user-email" placeholder="Insira Seu E-Mail" required>
                 </div>
 
 
                 <div id="password-login">
                     <label for="user-password"> Senha </label>
-                    <input type="password" name="user-password" placeholder="Senha">
+                    <input type="password" name="user-password" placeholder="Insira Sua Senha" required>
                 </div>
 
 
-                <div id="button-section">
-                    <input type="submit" value="Login" ></button>
+                <div id="login-button">
+                    <input type="submit" value="Entrar" ></button>
                 </div>
 
 
@@ -44,6 +44,7 @@
         </div>
 
     </form>
-    
+
+
 </body>
 </html>
